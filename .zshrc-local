@@ -5,7 +5,7 @@ fi
 
 # Use most as pager if it exists
 if hash most 2>/dev/null; then
-	export PAGER="most"
+   export PAGER="most"
 fi
 
 # use htop if it exists
