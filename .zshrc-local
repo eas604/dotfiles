@@ -1,0 +1,20 @@
+# Use vim where available
+if hash most 2>/dev/null; then
+   alias vi="vim"
+fi
+
+# Use most as pager if it exists
+if hash most 2>/dev/null; then
+	export PAGER="most"
+fi
+
+# use htop if it exists
+if hash htop 2>/dev/null; then
+   alias top="htop"
+fi
+
+# Use 24-bit color with pymux
+alias pymux="pymux --truecolor"
+
+# custom temp dir
+export TMPDIR="$HOME/.tmp"
