@@ -7,7 +7,7 @@ d = os.path.dirname(os.path.abspath(__file__))
 home = os.path.expanduser('~')
 
 for f in os.listdir(d):
-    if f.startswith('.'):
+    if f.startswith('.') and f != '.git':
         home_f = '{0}/{1}'.format(home, f)
         if not os.path.exists(home_f):
             dot_f = '{0}/{1}'.format(d, f)
