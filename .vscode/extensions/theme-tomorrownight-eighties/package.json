@@ -1,0 +1,22 @@
+{
+	"name": "theme-tomorrownight-eighties",
+	"displayName": "Tomorrow Night Eighties",
+	"description": "A Tomorrow Night variation",
+	"version": "0.0.1",
+	"publisher": "noone",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tomorrow Night - Eighties",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tomorrow_Night_Eighties.tmTheme"
+			}
+		]
+	}
+}
