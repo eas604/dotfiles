@@ -1,3 +1,3 @@
-#include "~/.xres/tomorrow-night-eighties"
-#include "~/.xres/xscreensaver"
-#include "~/.xres/fonts"
+#include "~/.xres/TomorrowNightEighties.Xresources"
+#include "~/.xres/xscreensaver.Xresources"
+#include "~/.xres/fonts.Xresources"
